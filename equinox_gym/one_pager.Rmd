@@ -1,0 +1,42 @@
+---
+title: "Bicycle calibration"
+subtitle: "A data-driven approach to diagnosis and prognosis"
+author: "databrew"
+date: "`r Sys.Date()`"
+output:
+  tufte::tufte_html: default
+  tufte::tufte_handout:
+    citation_package: natbib
+    latex_engine: xelatex
+  tufte::tufte_book:
+    citation_package: natbib
+    latex_engine: xelatex
+link-citations: yes
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+# The problem
+
+Equinox Gym has bicycles which, due to regular wear and tear, are reporting uncalibrated metrics. This reduces the quality of the user experience and needs to be addressed.
+
+# Diagnosis and prognosis
+
+The first step in fixing the calibration problem is diagnosing whether it stems from (a) faulty hardware or (b) faulty software. If the former, *databrew* can be of no help (ie, the prognosis is repair by the manufacturer); if the latter, *databrew* can identify and prescribe an algorithmic solution to the issue.
+
+# Action plan
+
+It is premature to lay out and price a full plan. Rather, we propose taking the following steps:
+
+- Equinox Gym provides to *databrew* bicycle data in the "rawest" form available.
+- *databrew* notifies Equinox Gym whether a third-party software only approach is viable (no charge).
+- If viable, *databrew* provides a proposal with timeline, price and implementation details for Equinox Gym's consideration.
+
+# Contact
+ben@databrew.cc
+
